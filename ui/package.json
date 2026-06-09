@@ -1,0 +1,24 @@
+{
+  "name": "llm-guardrails-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.7.2",
+    "element-plus": "^2.14.1",
+    "vue": "^3.4.0",
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.0.0",
+    "vue-tsc": "^2.0.0"
+  }
+}
