@@ -2,6 +2,16 @@
 
 LLM guardrails middleware — sanitize requests and responses on your existing LLM routes, manage policies via a built-in UI, store rules in S3.
 
+## Demo
+
+A working example app using this package — Express backend with Ollama, Vue frontend, LocalStack for local S3:
+
+**[LLM Guardrails Demo Chat App](https://github.com/naveenkumar-chandrasekar/LLM-guardrails-Demo-Chat-app)**
+
+Shows `guardrailsMiddleware` on a real chat route, the policy editor UI at `/guardrails/`, and policy storage in S3.
+
+---
+
 ## Install
 
 ```bash
